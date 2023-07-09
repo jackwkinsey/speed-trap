@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dejxtvvao44j1"]
+
+[ext_resource type="Script" path="res://stacked_sprite.gd" id="2_fga2a"]
+
+[node name="StackedSprite" type="Sprite2D"]
+self_modulate = Color(1, 1, 1, 0)
+script = ExtResource("2_fga2a")
+show_sprites = null
+rotate_sprites = null

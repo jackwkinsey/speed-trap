@@ -1,0 +1,36 @@
+[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://d1dhjoc5047dc"]
+
+[ext_resource type="Texture2D" uid="uid://ckbdldiy02v1k" path="res://tilemap_packed.png" id="1_dcgvl"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nraqy"]
+resource_name = "UrbanTiles"
+texture = ExtResource("1_dcgvl")
+1:15/0 = 0
+1:16/0 = 0
+1:17/0 = 0
+2:17/0 = 0
+3:17/0 = 0
+4:17/0 = 0
+2:16/0 = 0
+3:16/0 = 0
+4:16/0 = 0
+0:15/0 = 0
+0:16/0 = 0
+0:17/0 = 0
+5:17/0 = 0
+5:16/0 = 0
+6:16/0 = 0
+6:17/0 = 0
+7:17/0 = 0
+7:16/0 = 0
+8:16/0 = 0
+8:17/0 = 0
+9:17/0 = 0
+9:16/0 = 0
+2:10/0 = 0
+0:10/0 = 0
+1:10/0 = 0
+0:11/0 = 0
+
+[resource]
+sources/0 = SubResource("TileSetAtlasSource_nraqy")
