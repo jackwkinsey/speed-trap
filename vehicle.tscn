@@ -4,18 +4,17 @@
 [ext_resource type="PackedScene" uid="uid://dejxtvvao44j1" path="res://stacked_sprite.tscn" id="1_x7n23"]
 [ext_resource type="Texture2D" uid="uid://d2rdp7rj8mo64" path="res://police_cruiser.png" id="3_mqxan"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_oae74"]
-size = Vector2(12, 33)
+[sub_resource type="CircleShape2D" id="CircleShape2D_mqpqm"]
 
 [node name="Vehicle" type="CharacterBody2D"]
 script = ExtResource("1_25r17")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, -3)
-shape = SubResource("RectangleShape2D_oae74")
 
 [node name="StackedSprite" parent="." instance=ExtResource("1_x7n23")]
 texture = ExtResource("3_mqxan")
 hframes = 13
 show_sprites = true
 rotate_sprites = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -3)
+shape = SubResource("CircleShape2D_mqpqm")

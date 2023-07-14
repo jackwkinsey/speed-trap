@@ -33,7 +33,7 @@ func _process(delta):
 
 func set_angle(angle):
 	for sprite in get_children():
-		sprite.rotation = angle
+		sprite.rotation = angle - deg_to_rad(90)
 
 
 func clear_sprites():
